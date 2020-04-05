@@ -1,0 +1,20 @@
+{
+  "name": "thesis-demo-api",
+  "version": "1.0.0",
+  "description": "Data service for a mall",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/server"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1"
+  }
+}
